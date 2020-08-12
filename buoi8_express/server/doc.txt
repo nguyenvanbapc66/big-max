@@ -1,0 +1,40 @@
+Mô hình client - server
+ Client(Yêu cầu dịch vụ) - request
+ Server(Cung cấp các dịch vụ) - response
+
+Browser - WebServer
+ Giao thức http
+ - thông qua domain, ip:port
+ - Là gì? một giao thức ứng dụng của bộ giao thức TCP/IP (giao thức nền tảng). Viết tắt HyperTexxt Transfer Protocol
+ - HTTP quy định một tập các quy tắc và định dạng dữ liệu trao đổi. Đựơc sử dụng để phân phối dữ liệu (các tệp HTML, các file ảnh,...)
+ - Cổng mặc định là TCP 80, https 443
+
+ - ví dụ:
+ https://www.tutorialspoint.com/hello
+
+ - MIME type: Đặc tả để xác định kiểu dữ liệu được trao đổi là gì? (Multipurpose Internet Extensions)
+ ví dụ: application/json, text/html, image/jpeg,...
+
+1. HTTP
+  a. Request
+    - Host, port, path (url), query, Methods
+    - Headers
+    - Body
+  b. Response
+    - Headers
+    - Status code
+    - Body
+
+2. HTML
+  - Tag
+  - Base tag
+  - DOM
+  - CSS
+
+3. Express
+  - Xây một webserver ban đầu
+  - Router path & Middleware
+  - Cấu trúc xếp hàng các router path và middleware
+  - Chia nhỏ ứng dụng Express
+
+4. Phân biệt viết code giữa server & client

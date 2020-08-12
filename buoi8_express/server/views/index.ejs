@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/client.css">
+</head>
+
+<body>
+  <div>
+    <h2>Home page</h2>
+    <p>Today is <%= new Date().toLocaleDateString() %></p>
+    <p>Hello <%= username %>!</p>
+  </div>
+  <script>
+    console.log(123123)
+    setTimeout(() => {
+      document.querySelector('h2').innerText = 'Changed home page'
+    }, 2000)
+  </script>
+  <script src="/static/client-app.js"></script>
+</body>
+
+</html>

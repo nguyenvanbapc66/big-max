@@ -1,0 +1,29 @@
+Cài postman
+
+https://vi.wikipedia.org/wiki/M%C3%B4_h%C3%ACnh_OSI
+https://sites.google.com/site/fullcrackcoder/quy-trinh-bat-tay-3-buoc-three-way---handshake-trong-tang-transport
+
+https://vi.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+1. HTTP
+  a. Request
+    - Host, port, path (url), query, Methods
+    - Headers
+    - Body
+  b. Response
+    - Headers
+    - Status code
+    - Body
+
+2. HTML
+  - Tag
+  - Base tag
+  - DOM
+  - CSS
+
+3. Express
+  - Xây một webserver ban đầu
+  - Router path & Middleware
+  - Cấu trúc xếp hàng các router path và middleware
+  - Chia nhỏ ứng dụng Express
+
+4. Phân biệt viết code giữa server & client
