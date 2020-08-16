@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const router = require('./routers/user')
+const router = require('./router')
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/userManager', {
